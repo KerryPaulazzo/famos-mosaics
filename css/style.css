@@ -1,5 +1,5 @@
-@font-face { font-family: Lexlox; src: url('css/Lexlox.otf'); }
-@font-face { font-family: Montserrat; src: url('css/Montserrat.ttf'); }
+@font-face { font-family: Lexlox; src: url('Lexlox.otf'); }
+@font-face { font-family: Montserrat; src: url('Montserrat.ttf'); }
 
 .container {
     padding: 50px 25px;
