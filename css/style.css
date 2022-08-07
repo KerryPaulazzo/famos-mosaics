@@ -1,4 +1,55 @@
+@font-face { font-family: Lexlox; src: url('css/Lexlox.otf'); }
+@font-face { font-family: Montserrat; src: url('css/Montserrat.ttf'); }
+
 .container {
-    padding-right: 25px;
-    padding-left: 25px;
+    padding: 50px 25px;
+}
+@media (max-width: 991px) {
+.container {
+    padding: 30px 25px;
+}
+}
+.row > div {
+    padding-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+h2, h2 > span {
+    font-size: 2.5rem;
+}
+h1 > span, h2 > span {
+    font-family: 'Lexlox', sans-serif;
+    font-weight: 400;
+    background: -webkit-linear-gradient(180deg, #6C388C, #195398, #1D99C8, #3C983E, #EBB817, #E26D15, #DE3A18);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 108%;
+    position: relative;
+    top: 1.2px;
+}
+p, span, li, a {
+    font-family: 'Open Sans', sans-serif;
+} 
+p.lead {
+    font-weight:500;
+}
+a p span, p a {
+    color: #195398;
+    font-weight: 600;
+    border-bottom: 1px solid #195398;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+
+/* Portfolio */
+
+.thumbnail p {
+    padding-top: 8px;
 }
